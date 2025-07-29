@@ -36,3 +36,9 @@ main {
   justify-content: space-around;
   width: 40%;
 }
+.categories__html,
+.categories__css,
+.categories__flexbox {
+  border-style: solid;
+  border-radius: 0.4em;
+}
