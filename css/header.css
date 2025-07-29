@@ -1,0 +1,9 @@
+.main-header {
+  background-color: var(--dark-forrest);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
