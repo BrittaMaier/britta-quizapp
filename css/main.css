@@ -3,7 +3,7 @@ main {
   padding-top: 100px;
   padding-bottom: 80px;
 }
-.card-section {
+.card {
   display: flex;
   flex-direction: column;
   justify-self: center;
