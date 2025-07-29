@@ -12,8 +12,9 @@
     </header>
     <main>
       <section class="card">
-        <article class="question-card __first">
+        <article class="card __first">
           <p class="question">Question?</p>
+          <p class="answer hidden">Answer</p>
           <a class="question-card__content --show_answer" href=""
             >Show Answer</a
           >
@@ -23,10 +24,10 @@
             <a class="" href="#">flexbox</a>
           </section>
         </article>
-        <article class="question-card __first">
+        <article class="card __second">
           <img
-            class="corner-icon"
-            alt="bookmark-icon"
+            class="corner-icon --active --inactive"
+            alt="bookmark-icon_inactive"
             src="./assets/bookmark.svg"
           />
           <p class="question">Question?</p>
@@ -41,13 +42,15 @@
         </article>
       </section>
     </main>
-    <footer class="location-on-page">
-      <a class="home" href="#"><img alt="home" src="./assets/house.svg" /></a>
-      <a class="bookmark" href="#"
-        ><img alt="bookmark" src="./assets/bookmark.svg"
+    <footer class="location">
+      <a class="location__home --active --inactive" href="#"
+        ><img alt="home" src="./assets/house.svg"
       /></a>
-      <a class="user-profile" href="#"
-        ><img alt="user-profile" src="./assets/circle-user-round.svg"
+      <a class="location__bookmark --active --inactive" href="#"
+        ><img alt="bookmark_inactive" src="./assets/bookmark.svg"
+      /></a>
+      <a class="location__user --active --inactive" href="#"
+        ><img alt="user_inactive" src="./assets/circle-user-round.svg"
       /></a>
     </footer>
   </body>
