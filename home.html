@@ -12,15 +12,15 @@
     </header>
     <main>
       <section class="card --first">
-        <img
-          class="card__corner-icon --active --inactive"
-          alt="bookmark-icon_inactive"
-          src="./assets/bookmark.svg"
-        />
+        <div class="container --inactive">
+          <img
+            class="card__corner-icon --inactive --active"
+            alt="bookmark-icon_inactive"
+            src="./assets/bookmark.svg"
+          />
+        </div>
         <p class="card__question">Question?</p>
-        <p class="card__answer --show --hide">Answer</p>
         <a class="card__show-answer" href="#">Show Answer</a>
-        <a class="card__hide-answer" href="#">Hide Answer</a>
         <section class="categories">
           <a class="categories__html" href="#">html</a>
           <a class="categories__css" href="#">css</a>
@@ -28,16 +28,15 @@
         </section>
       </section>
       <section class="card --second">
-        <div class="container">
+        <div class="container --active">
           <img
-            class="card__corner-icon --active --inactive"
+            class="card__corner-icon --active"
             alt="bookmark-icon_inactive"
             src="./assets/bookmark.svg"
           />
         </div>
         <p class="card__question">Question?</p>
         <p class="card__answer --show --hide">Answer</p>
-        <a class="card__show-answer" href="#">Show Answer</a>
         <a class="card__hide-answer" href="#">Hide Answer</a>
         <section class="categories">
           <a class="categories__html" href="#">html</a>

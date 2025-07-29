@@ -29,26 +29,27 @@ main {
   position: relative;
   padding-bottom: 15%;
 }
-.container {
+.container .--active {
   position: absolute;
   top: -1.5em;
   right: 0.3em;
+  height: 7vh;
   background-color: var(--light-green);
 }
-.card__corner-icon /*.--inactive*/ {
-  height: 7vh;
-  filter: invert(100%);
+.container .--inactive {
   position: absolute;
   top: -1.5em;
   right: 0.3em;
+  height: 7vh;
+  background-color: var(--forrest-green);
 }
-/*.card__corner-icon .--active {
+.card__corner-icon .--inactive {
+  filter: invert(100%);
+}
+.card__corner-icon .--active {
   height: 7vh;
   filter: invert(100%);
-  position: absolute;
-  top: -1.5rem;
-  right: 0.3rem;
-}*/
+}
 .card__question {
   align-self: center;
   font-size: 2em;
@@ -62,7 +63,7 @@ main {
 .card__answer .--hide {
   display: none;
 }
-.card__show-answer /*.--inactive*/ {
+.card__show-answer {
   border-style: solid;
   width: fit-content;
   padding: 10px;
