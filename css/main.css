@@ -1,3 +1,6 @@
+main {
+  height: 100%;
+}
 .card-section {
   display: flex;
   flex-direction: column;
