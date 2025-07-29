@@ -29,6 +29,12 @@ main {
   position: relative;
   padding-bottom: 15%;
 }
+.container {
+  position: absolute;
+  top: -1.5em;
+  right: 0.3em;
+  background-color: var(--light-green);
+}
 .card__corner-icon /*.--inactive*/ {
   height: 7vh;
   filter: invert(100%);
@@ -50,7 +56,20 @@ main {
 .card__answer {
   font-size: 1.5em;
 }
+.card__answer .--show {
+  display: block;
+}
+.card__answer .--hide {
+  display: none;
+}
 .card__show-answer /*.--inactive*/ {
+  border-style: solid;
+  width: fit-content;
+  padding: 10px;
+  align-self: center;
+  font-size: 1em;
+}
+.card_hide-answer {
   border-style: solid;
   width: fit-content;
   padding: 10px;
