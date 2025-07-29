@@ -44,3 +44,6 @@ body {
   width: fit-content;
   align-self: center;
 }
+.categories {
+  align-self: flex-start;
+}
