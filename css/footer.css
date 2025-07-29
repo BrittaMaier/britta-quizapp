@@ -1,3 +1,9 @@
 .location-on-page {
+  background-color: var(--dark-forrest);
+  font-size: 2rem;
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
