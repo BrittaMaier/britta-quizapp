@@ -39,3 +39,8 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+.--show_answer {
+  border-style: solid;
+  width: fit-content;
+  align-self: center;
+}
