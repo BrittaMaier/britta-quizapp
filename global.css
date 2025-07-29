@@ -47,3 +47,6 @@ body {
 .categories {
   align-self: flex-start;
 }
+.question {
+  align-self: center;
+}
