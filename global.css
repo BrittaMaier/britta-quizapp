@@ -13,46 +13,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--forrest-green);
   color: var(--font-color);
-  margin: 0;
-  padding: 0;
-}
-.main-header {
-  background-color: var(--dark-forrest);
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.card-section {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: space-around;
-  width: 80%;
-}
-.question-card {
-  border-style: solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-}
-.--show_answer {
-  border-style: solid;
-  width: fit-content;
-  padding: 10px;
-  align-self: center;
-  font-size: 0.8rem;
-}
-.categories {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 40%;
-}
-.question {
-  align-self: center;
-  font-size: 1rem;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
