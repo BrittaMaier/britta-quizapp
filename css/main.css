@@ -28,7 +28,6 @@ main {
   height: 40vh;
   position: relative;
   padding-bottom: 15%;
-  padding-top: 5%;
 }
 .card__corner-icon /*.--inactive*/ {
   height: 7vh;
@@ -48,12 +47,15 @@ main {
   align-self: center;
   font-size: 2em;
 }
+.card__answer {
+  font-size: 1.5em;
+}
 .card__show-answer /*.--inactive*/ {
   border-style: solid;
   width: fit-content;
   padding: 10px;
   align-self: center;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 /*.card__show-answer .--active {
   border-style: solid;
