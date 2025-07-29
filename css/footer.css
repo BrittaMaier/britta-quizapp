@@ -10,8 +10,10 @@
   z-index: 5;
   padding: 0.5rem;
 }
+.location:first-child {
+  background-color: var(--light-green);
+}
 .location__bookmark,
-.location__home,
 .location__user-profile {
   filter: invert(100%);
 }
