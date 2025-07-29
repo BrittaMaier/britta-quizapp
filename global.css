@@ -42,6 +42,7 @@ body {
 .--show_answer {
   border-style: solid;
   width: fit-content;
+  padding: 10px;
   align-self: center;
 }
 .categories {
