@@ -46,7 +46,7 @@ main {
 }*/
 .card__question {
   align-self: center;
-  font-size: 1em;
+  font-size: 2em;
 }
 .card__show-answer /*.--inactive*/ {
   border-style: solid;
