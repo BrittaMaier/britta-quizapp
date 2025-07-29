@@ -3,15 +3,15 @@ main {
   padding-top: 100px;
   padding-bottom: 80px;
 }
-.card {
+/*.card(sollte jetzt main sein) {
   display: flex;
   flex-direction: column;
   justify-self: center;
   gap: 2rem;
   width: 80%;
   height: 100%;
-}
-.card_content {
+}*/
+.card {
   border-style: solid;
   display: flex;
   flex-direction: column;
@@ -20,24 +20,38 @@ main {
   height: 40vh;
   position: relative;
 }
-.corner-icon {
+.card__corner-icon /*.--inactive*/ {
   height: 7vh;
   filter: invert(100%);
   position: absolute;
   top: -1.5rem;
   right: 0.3rem;
 }
-.question {
+/*.card__corner-icon .--active {
+  height: 7vh;
+  filter: invert(100%);
+  position: absolute;
+  top: -1.5rem;
+  right: 0.3rem;
+}*/
+.card__question {
   align-self: center;
   font-size: 1rem;
 }
-.--show_answer {
+.card__show-answer /*.--inactive*/ {
   border-style: solid;
   width: fit-content;
   padding: 10px;
   align-self: center;
   font-size: 0.8rem;
 }
+/*.card__show-answer .--active {
+  border-style: solid;
+  width: fit-content;
+  padding: 10px;
+  align-self: center;
+  font-size: 0.8rem;
+}*/
 .categories {
   display: flex;
   flex-direction: row;
