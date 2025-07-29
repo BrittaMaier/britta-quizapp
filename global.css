@@ -32,3 +32,10 @@ body {
   align-items: center;
   width: 80%;
 }
+.question-card {
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
