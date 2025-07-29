@@ -11,7 +11,7 @@ main {
   width: 80%;
   height: 100%;
 }
-.question-card {
+.card_content {
   border-style: solid;
   display: flex;
   flex-direction: column;
@@ -26,8 +26,6 @@ main {
   position: absolute;
   top: -1.5rem;
   right: 0.3rem;
-  background-color: --forrest-green;
-  color: white;
 }
 .question {
   align-self: center;
