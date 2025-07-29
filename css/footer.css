@@ -1,4 +1,4 @@
-.location-on-page {
+.location {
   background-color: var(--dark-forrest);
   font-size: 2rem;
   width: 100%;
@@ -10,8 +10,8 @@
   z-index: 5;
   padding: 0.5rem;
 }
-.bookmark,
-.home,
-.user-profile {
+.location__bookmark,
+.location__home,
+.location__user-profile {
   filter: invert(100%);
 }
