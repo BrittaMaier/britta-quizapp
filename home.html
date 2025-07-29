@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <p class="main-header__text">Quiz App</p>
+    </header>
+    <main>
+      <section class="card --first">
+        <div class="container --inactive">
+          <img
+            class="card__corner-icon --inactive --active"
+            alt="bookmark-icon_inactive"
+            src="./assets/bookmark.svg"
+          />
+        </div>
+        <p class="card__question">Question?</p>
+        <a class="card__show-answer" href="#">Show Answer</a>
+        <section class="categories">
+          <a class="categories__html" href="#">html</a>
+          <a class="categories__css" href="#">css</a>
+          <a class="categories__flexbox" href="#">flexbox</a>
+        </section>
+      </section>
+      <section class="card --second">
+        <div class="container --active">
+          <img
+            class="card__corner-icon --active"
+            alt="bookmark-icon_inactive"
+            src="./assets/bookmark.svg"
+          />
+        </div>
+        <p class="card__question">Question?</p>
+        <p class="card__answer --show --hide">Answer</p>
+        <a class="card__hide-answer" href="#">Hide Answer</a>
+        <section class="categories">
+          <a class="categories__html" href="#">html</a>
+          <a class="categories__css" href="#">css</a>
+          <a class="categories__flexbox" href="#">flexbox</a>
+        </section>
+      </section>
+    </main>
+    <footer class="location">
+      <div class="footer--active">
+        <a class="location__home --active --inactive" href="#homepage.html#"
+          ><img alt="home" src="./assets/house.svg"
+        /></a>
+      </div>
+      <div class="footer--inactive">
+        <a class="location__bookmark --active --inactive" href="#bookmark.html#"
+          ><img alt="bookmark_inactive" src="./assets/bookmark.svg"
+        /></a>
+      </div>
+      <div class="footer--inactive">
+        <a
+          class="location__user-profile --active --inactive"
+          href="#user-profile.html#"
+          ><img
+            alt="user-profile_inactive"
+            src="./assets/circle-user-round.svg"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.location {
+  background-color: var(--dark-forrest);
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  padding: 0.5rem;
+}
+.location:first-child {
+  background-color: var(--light-green);
+}
+.location__bookmark,
+.location__user-profile {
+  filter: invert(100%);
+}

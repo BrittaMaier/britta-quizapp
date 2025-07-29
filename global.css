@@ -1,0 +1,20 @@
+:root {
+  /* Color variables*/
+  --forrest-green: #3b7d23;
+  --dark-forrest: #275317;
+  --light-green: #b4e5a2;
+  --font-color: white;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--forrest-green);
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+}
