@@ -65,18 +65,25 @@ main {
 }
 .card__show-answer {
   border-style: solid;
+  border-color: var(--font-color);
   width: fit-content;
   padding: 10px;
   align-self: center;
   font-size: 1em;
+  background-color: var(--forrest-green);
+  color: var(--font-color);
 }
-.card_hide-answer {
+.card__hide-answer {
   border-style: solid;
+  border-color: var(--font-color);
   width: fit-content;
   padding: 10px;
   align-self: center;
   font-size: 1em;
+  background-color: var(--forrest-green);
+  color: var(--font-color);
 }
+
 /*.card__show-answer .--active {
   border-style: solid;
   width: fit-content;
@@ -98,5 +105,8 @@ main {
 .categories__flexbox {
   border-style: solid;
   border-radius: 0.4em;
+  border-color: var(--dark-forrest);
   padding: 0.2em;
+  background-color: var(--dark-forrest);
+  color: var(--font-color);
 }

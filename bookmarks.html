@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <p class="main-header__text">Quiz App</p>
+    </header>
+    <main>
+      <section class="card --second">
+        <div class="container --active">
+          <img
+            class="card__corner-icon --active"
+            alt="bookmark-icon_inactive"
+            src="./assets/bookmark.svg"
+          />
+        </div>
+        <p class="card__question">What does lorem mean?</p>
+        <p class="card__answer --show --hide">
+          Google translate says it means internet
+        </p>
+        <button class="card__hide-answer">Hide Answer</button>
+        <section class="categories">
+          <button class="categories__html">html</button>
+          <button class="categories__css">css</button>
+          <button class="categories__flexbox">flexbox</button>
+        </section>
+      </section>
+      <section class="card --third">
+        <div class="container --active">
+          <img
+            class="card__corner-icon --active"
+            alt="bookmark-icon_inactive"
+            src="./assets/bookmark.svg"
+          />
+        </div>
+        <p class="card__question">Who was Ada Lovelace?</p>
+        <p class="card__answer --show --hide">First female programmer</p>
+        <button class="card__hide-answer">Hide Answer</button>
+        <section class="categories">
+          <button class="categories__html">html</button>
+          <button class="categories__css">css</button>
+          <button class="categories__flexbox">flexbox</button>
+        </section>
+      </section>
+    </main>
+    <footer class="location">
+      <div class="footer--inactive">
+        <a class="location__home --active --inactive" href="home.html"
+          ><img alt="home" src="./assets/house.svg"
+        /></a>
+      </div>
+      <div class="footer--active">
+        <a class="location__bookmark --active --inactive" href="bookmarks.html"
+          ><img alt="bookmark_inactive" src="./assets/bookmark.svg"
+        /></a>
+      </div>
+      <div class="footer--inactive">
+        <a
+          class="location__user-profile --active --inactive"
+          href="profile.html"
+          ><img
+            alt="user-profile_inactive"
+            src="./assets/circle-user-round.svg"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
