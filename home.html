@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="main-header">
-      <p class="main-header__text">Quiz App</p>
+      <p class="main-header__text" aria-label="header">Quiz App</p>
     </header>
     <main>
       <section class="card --first">
@@ -16,15 +16,20 @@
           <img
             class="card__corner-icon --inactive --active"
             alt="bookmark-icon_inactive"
+            aria-label="bookmark-icon_inactive"
             src="./assets/bookmark.svg"
           />
         </div>
         <p class="card__question">Why is it called bug?</p>
         <button class="card__show-answer">Show Answer</button>
         <section class="categories">
-          <button class="categories__html">html</button>
-          <button class="categories__css">css</button>
-          <button class="categories__flexbox">flexbox</button>
+          <button class="categories__html" aria-label="html-button">
+            html
+          </button>
+          <button class="categories__css" aria-label="css-button">css</button>
+          <button class="categories__flexbox" aria-label="flexbox-button">
+            flexbox
+          </button>
         </section>
       </section>
       <section class="card --second">
@@ -32,18 +37,27 @@
           <img
             class="card__corner-icon --active"
             alt="bookmark-icon_inactive"
+            aria-label="bookmark-icon_inactive"
             src="./assets/bookmark.svg"
           />
         </div>
-        <p class="card__question">What does lorem mean?</p>
-        <p class="card__answer --show --hide">
+        <p class="card__question" aria-label="question">
+          What does lorem mean?
+        </p>
+        <p class="card__answer --show --hide" aria-label="answer">
           Google translate says it means internet
         </p>
-        <button class="card__hide-answer">Hide Answer</button>
+        <button class="card__hide-answer" aria-label="hide-answer-button">
+          Hide Answer
+        </button>
         <section class="categories">
-          <button class="categories__html">html</button>
-          <button class="categories__css">css</button>
-          <button class="categories__flexbox">flexbox</button>
+          <button class="categories__html" aria-label="html-button">
+            html
+          </button>
+          <button class="categories__css" aria-label="css-button">css</button>
+          <button class="categories__flexbox" aria-label="flexbox-button">
+            flexbox
+          </button>
         </section>
       </section>
       <section class="card --third">
@@ -51,28 +65,40 @@
           <img
             class="card__corner-icon --active"
             alt="bookmark-icon_inactive"
+            aria-label="bookmark-icon_inactive"
             src="./assets/bookmark.svg"
           />
         </div>
-        <p class="card__question">Who was Ada Lovelace?</p>
-        <p class="card__answer --show --hide">First female programmer</p>
-        <button class="card__hide-answer">Hide Answer</button>
+        <p class="card__question" aria-label="question">
+          Who was Ada Lovelace?
+        </p>
+        <p class="card__answer --show --hide" aria-label="answer">
+          First female programmer
+        </p>
+        <button class="card__hide-answer" aria-label="hide-answer-button">
+          Hide Answer
+        </button>
         <section class="categories">
-          <button class="categories__html">html</button>
-          <button class="categories__css">css</button>
-          <button class="categories__flexbox">flexbox</button>
+          <button class="categories__html" aria-label="html">html</button>
+          <button class="categories__css" aria-label="css">css</button>
+          <button class="categories__flexbox" aria-label="flexbox">
+            flexbox
+          </button>
         </section>
       </section>
     </main>
     <footer class="location">
       <div class="footer--active">
         <a class="location__home --active --inactive" href="home.html"
-          ><img alt="home" src="./assets/house.svg"
+          ><img alt="home" aria-label="home" src="./assets/house.svg"
         /></a>
       </div>
       <div class="footer--inactive">
         <a class="location__bookmark --active --inactive" href="bookmarks.html"
-          ><img alt="bookmark_inactive" src="./assets/bookmark.svg"
+          ><img
+            alt="bookmark_inactive"
+            aria-label="bookmark"
+            src="./assets/bookmark.svg"
         /></a>
       </div>
       <div class="footer--inactive">
@@ -81,6 +107,7 @@
           href="profile.html"
           ><img
             alt="user-profile_inactive"
+            aria-label="user-profile"
             src="./assets/circle-user-round.svg"
         /></a>
       </div>
